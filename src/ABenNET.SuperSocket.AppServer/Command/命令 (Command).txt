@@ -1,0 +1,12 @@
+﻿命令 (Command)
+http://docs.supersocket.net/v1-6/zh-CN/Command-and-Command-Loader
+
+
+如果你的服务器端包含有很多复杂的业务逻辑，这样的switch/case代码将会很长而且非常难看，并且没有遵循OOD的原则。 
+在这种情况下，SuperSocket提供了一个让你在多个独立的类中处理各自不同的请求的命令框架。
+http://docs.supersocket.net/v1-6/zh-CN/A-Telnet-Example
+
+同时你要移除请求处理方法的注册，因为它和命令不能同时被支持：
+
+//Remove this line
+appServer.NewRequestReceived += new RequestHandler<AppSession, StringRequestInfo>(appServer_NewRequestReceived);

@@ -1,0 +1,19 @@
+关于supersocket组件nuget地址下载主页：https://www.nuget.org/profiles/kerryjiang  大家千万别下错了。
+
+1）、SuperSocket 服务端(Server)
+
+github下载地址:https://github.com/kerryjiang/SuperSocket
+nuget下载地址:https://www.nuget.org/packages/SuperSocket/
+2）、SuperSocket.ClientEngine 客户端(Client)
+
+gitbub下载地址:https://github.com/kerryjiang/SuperSocket.ClientEngine
+
+nuget下载地址:https://www.nuget.org/packages/SuperSocket.ClientEngine/    （推荐）
+
+特别说明：关于客户端client engine版本0.7.0.1以后的版本就不再是使用AsyncTcpSession对象而是使用EasyClient对象Install-Package SuperSocket.ClientEngine.Core -Version 0.7.0.1  ，0.7.0.1版本中既使用了EasyClient也使用了AsyncTcpSession。不知道为什么新的版本作者把它给阉割了。有谁可以回答一下我的这个问题吗？
+
+3）、WebSocket4Net  
+
+SuperSocket通讯组件支持WebSocket协议作者已经单独独立出了一个类库。
+github下载地址:https://github.com/kerryjiang/WebSocket4Net
+nuget下载地址:https://www.nuget.org/packages/WebSocket4Net/

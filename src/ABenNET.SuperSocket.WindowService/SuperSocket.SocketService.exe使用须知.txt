@@ -1,0 +1,39 @@
+﻿SuperSocket.SocketService.exe使用须知：
+
+务必使你的server所需要的所有程序集都和SuperSocket.SocketService.exe在同一目录
+将你的SuperSocket App.config 配置放置于SuperSocket.SocketService.exe.config文件之中
+直接运行"SuperSocket.SocketService.exe"，你定义的服务器将会运行
+
+安装SuperSocket.SocketService.exe为Windows服务
+
+通过在命令行下加参数"-i"运行SuperSocket.SocketService.exe，你可以安装它成为一个Windows服务：
+
+SuperSocket.SocketService.exe -i
+
+这个Windows服务的名字定义在配置文件之中，你可以根据你的需要修改它：
+
+<appSettings>
+    <add key="ServiceName" value="SuperSocketService" />
+</appSettings>
+你也可以通过参数"-u"来卸载该服务：
+
+SuperSocket.SocketService.exe -u
+
+
+配置智能感知提示
+SuperSocket 提供了在线的 XSD (XML Schema Document) 来帮助你方便的进行配置。 你只需在你的SuperSocket 配置节中增加三行代码即可:
+
+<superSocket xmlns="http://schema.supersocket.net/supersocket"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://schema.supersocket.net/supersocket http://schema.supersocket.net/v1-6/supersocket.xsd">
+    <!---->
+</superSocket>
+
+
+SuperSocket.SocketService.exe的路径在哪里呢? 大家通过nuget下载的时候在packages中找到对应的NET版本。
+packages\SuperSocket.Engine.1.6.6.1\lib\net35
+packages\SuperSocket.Engine.1.6.6.1\lib\net40
+packages\SuperSocket.Engine.1.6.6.1\lib\net45
+
+
+如果采用SuperSocket.SocketService.exe进行宿主，配置文件一定为:【SuperSocket.SocketService.exe.config】，而不是【App.config】
