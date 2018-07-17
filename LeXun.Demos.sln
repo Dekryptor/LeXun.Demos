@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD9E51CF-E3E1-4F43-B841-4A81178F106D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{05CA55E5-639D-4162-89D2-59A725FAE64D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20C0B2FF-04F3-44A2-9BB7-6FEF04DFC1CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperSocket", "SuperSocket", "{322728E2-CEB6-4B5F-A2B8-DEA67E4BCEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABenNET.SuperSocket.AppClient", "src\SuperSocket\ABenNET.SuperSocket.AppClient\ABenNET.SuperSocket.AppClient.csproj", "{1C031C74-811E-4914-B562-F347994D4AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABenNET.SuperSocket.AppServer", "src\SuperSocket\ABenNET.SuperSocket.AppServer\ABenNET.SuperSocket.AppServer.csproj", "{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABenNET.SuperSocket.WindowService", "src\SuperSocket\ABenNET.SuperSocket.WindowService\ABenNET.SuperSocket.WindowService.csproj", "{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScanQRCodeLogin", "ScanQRCodeLogin", "{2AB7472F-10DF-4820-8E4B-B5D4F93E4906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanQRCodeLogin", "src\ScanQRCodeLogin\ScanQRCodeLogin\ScanQRCodeLogin.csproj", "{ED9454F2-A8E4-4746-B497-A858034E6889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScanQRCodeLoginConsoleApp", "src\ScanQRCodeLogin\ScanQRCodeLoginConsoleApp\ScanQRCodeLoginConsoleApp.csproj", "{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ScanQRCodeLoginMobileApp", "src\ScanQRCodeLogin\ScanQRCodeLoginMobileApp\ScanQRCodeLoginMobileApp.njsproj", "{6D58798E-ED8B-4B47-AFEE-46D510E76D78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Debug|x86.ActiveCfg = Debug|x86
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Debug|x86.Build.0 = Debug|x86
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Release|Any CPU.ActiveCfg = Release|x86
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Release|x86.ActiveCfg = Release|x86
+		{1C031C74-811E-4914-B562-F347994D4AC5}.Release|x86.Build.0 = Release|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Debug|x86.ActiveCfg = Debug|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Debug|x86.Build.0 = Debug|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Release|Any CPU.ActiveCfg = Release|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Release|x86.ActiveCfg = Release|x86
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE}.Release|x86.Build.0 = Release|x86
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Debug|x86.Build.0 = Debug|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Release|x86.ActiveCfg = Release|Any CPU
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891}.Release|x86.Build.0 = Release|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED9454F2-A8E4-4746-B497-A858034E6889}.Release|x86.Build.0 = Release|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD}.Release|x86.Build.0 = Release|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{322728E2-CEB6-4B5F-A2B8-DEA67E4BCEB9} = {CD9E51CF-E3E1-4F43-B841-4A81178F106D}
+		{1C031C74-811E-4914-B562-F347994D4AC5} = {322728E2-CEB6-4B5F-A2B8-DEA67E4BCEB9}
+		{9972DCCB-EEF7-410A-BB79-49BF0413A9AE} = {322728E2-CEB6-4B5F-A2B8-DEA67E4BCEB9}
+		{693B8F4C-4BEB-4C74-8A63-989B0F0E0891} = {322728E2-CEB6-4B5F-A2B8-DEA67E4BCEB9}
+		{2AB7472F-10DF-4820-8E4B-B5D4F93E4906} = {CD9E51CF-E3E1-4F43-B841-4A81178F106D}
+		{ED9454F2-A8E4-4746-B497-A858034E6889} = {2AB7472F-10DF-4820-8E4B-B5D4F93E4906}
+		{F3555D2D-AAA4-4BE7-86C3-FBE5FDFC30AD} = {2AB7472F-10DF-4820-8E4B-B5D4F93E4906}
+		{6D58798E-ED8B-4B47-AFEE-46D510E76D78} = {2AB7472F-10DF-4820-8E4B-B5D4F93E4906}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E8CF9C-D610-48FC-AC11-9046D388840E}
+	EndGlobalSection
+EndGlobal
